@@ -282,11 +282,6 @@ body {
   font-size: 1.2em;
 }
 
-.depoimento-info .avaliacao {
-  color: #ffc107;
-  margin-bottom: 8px;
-}
-
 .depoimento-info blockquote {
   font-style: italic;
   color: #555;
@@ -347,6 +342,7 @@ body {
   border-radius: 4px;
   width: 100%;
   box-sizing: border-box;
+  resize: vertical;
 }
 
 .contato-form button {

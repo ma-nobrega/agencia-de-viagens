@@ -261,18 +261,12 @@ function App() {
           <div className="card-depoimento">
             <div className="depoimento-info">
               <h3>João Silva</h3>
-              <p className="avaliacao">
-                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-              </p>
               <blockquote>Foi a melhor viagem da minha vida!</blockquote>
             </div>
           </div>
           <div className="card-depoimento">
             <div className="depoimento-info">
               <h3>Maria Santos</h3>
-              <p className="avaliacao">
-                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-              </p>
               <blockquote>
                 Experiência incrível e atendimento excelente.
               </blockquote>
@@ -281,18 +275,12 @@ function App() {
           <div className="card-depoimento">
             <div className="depoimento-info">
               <h3>Ana Costa</h3>
-              <p className="avaliacao">
-                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStarHalfAlt />
-              </p>
               <blockquote>Recomendo a todos, vale cada centavo.</blockquote>
             </div>
           </div>
           <div className="card-depoimento">
             <div className="depoimento-info">
               <h3>Pedro Oliveira</h3>
-              <p className="avaliacao">
-                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStarHalfAlt />
-              </p>
               <blockquote>
                 Excelente custo-benefício e ótimos guias turísticos.
               </blockquote>
