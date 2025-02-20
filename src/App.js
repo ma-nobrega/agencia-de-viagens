@@ -4,8 +4,6 @@ import {
   FaPlane,
   FaWalking,
   FaBus,
-  FaStar,
-  FaStarHalfAlt,
   FaMapMarkerAlt,
   FaPhone,
   FaWhatsapp,
@@ -26,34 +24,22 @@ function App() {
     <div className="App">
       <header className="header">
         <h1>Senai Viagens</h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="#home">
-                <FaHome /> HOME
-              </a>
-            </li>
-            <li>
-              <a href="#destinos">
-                <FaMapMarkedAlt /> DESTINOS
-              </a>
-            </li>
-            <li>
-              <a href="#pacotes">
-                <FaSuitcase /> PACOTES
-              </a>
-            </li>
-            <li>
-              <a href="#depoimentos">
-                <FaComments /> DEPOIMENTOS
-              </a>
-            </li>
-            <li>
-              <a href="#contato">
-                <FaEnvelope /> CONTATO
-              </a>
-            </li>
-          </ul>
+        <nav className="menu">
+          <a href="#home">
+            <FaHome /> HOME
+          </a>
+          <a href="#destinos">
+            <FaMapMarkedAlt /> DESTINOS
+          </a>
+          <a href="#pacotes">
+            <FaSuitcase /> PACOTES
+          </a>
+          <a href="#depoimentos">
+            <FaComments /> DEPOIMENTOS
+          </a>
+          <a href="#contato">
+            <FaEnvelope /> CONTATO
+          </a>
         </nav>
       </header>
 
