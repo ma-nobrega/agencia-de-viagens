@@ -44,26 +44,27 @@ function App() {
       </header>
 
       <section className="hero">
-        <div className="hero-content">
+        <div className="heroContent">
           <h2>Explore o Mundo com a Senai Viagens</h2>
           <p>
             Oferecemos os melhores pacotes de viagens para você e sua família.
             Experiências inesquecíveis aguardam você!
           </p>
-          <div className="hero-buttons">
-            <button className="btn-saiba-mais">Saiba Mais</button>
-            <button className="btn-reserve-agora">Reserve Agora</button>
+          <div className="heroButtons">
+            <button className="btnSaibaMais">Saiba Mais</button>
+            <button className="btnReserveAgora">Reserve Agora</button>
           </div>
         </div>
       </section>
-      <section id="destinos" className="destinos-populares">
+
+      <section id="destinos" className="destinosPopulares">
         <h2>Destinos Populares</h2>
-        <div className="destinos-grid">
-          <div className="card-destino">
+        <div className="destinosGrid">
+          <div className="cardDestino">
             <img
               src="https://oficinadeinverno.com.br/cdn/shop/articles/eiffel-tower-sunrise1.jpg?v=1659494576"
               alt="Paris"
-              className="imagem-destino"
+              className="imagemDestino"
             />
             <h3>
               <Flag code="FRA" height="16" className="bandeira" /> Paris
@@ -74,11 +75,11 @@ function App() {
               e explore as charmosas ruas de Montmartre.
             </p>
           </div>
-          <div className="card-destino">
+          <div className="cardDestino">
             <img
               src="https://classic.exame.com/wp-content/uploads/2017/10/ny-1.jpg?quality=70&strip=info&w=1024"
               alt="Nova York"
-              className="imagem-destino"
+              className="imagemDestino"
             />
             <h3>
               <Flag code="USA" height="16" className="bandeira" /> Nova York
@@ -89,11 +90,11 @@ function App() {
               desfrute de uma variedade de espetáculos na Broadway.
             </p>
           </div>
-          <div className="card-destino">
+          <div className="cardDestino">
             <img
               src="https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo/toquio-pontos-turisticos.jpg"
               alt="Tóquio"
-              className="imagem-destino"
+              className="imagemDestino"
             />
             <h3>
               <Flag code="JPN" height="16" className="bandeira" /> Tóquio
@@ -107,15 +108,15 @@ function App() {
         </div>
       </section>
 
-      <section id="pacotes" className="pacotes-viagem">
+      <section id="pacotes" className="pacotesViagem">
         <h2>Pacotes de Viagem</h2>
-        <div className="pacotes-grid">
-          <div className="card-pacote">
-            <div className="pacote-header">
+        <div className="pacotesGrid">
+          <div className="cardPacote">
+            <div className="pacoteHeader">
               <h3>Pacote Europa</h3>
               <div className="preco">
-                <span className="preco-anterior">R$ 6.000</span>
-                <span className="preco-atual">R$ 5.000</span>
+                <span className="precoAnterior">R$ 6.000</span>
+                <span className="precoAtual">R$ 5.000</span>
               </div>
             </div>
             <p>
@@ -138,16 +139,16 @@ function App() {
                 <FaBus /> Transporte entre as cidades
               </li>
             </ul>
-            <button type="button" className="btn-comprar">
+            <button type="button" className="btnComprar">
               Comprar
             </button>
           </div>
-          <div className="card-pacote">
-            <div className="pacote-header">
+          <div className="cardPacote">
+            <div className="pacoteHeader">
               <h3>Pacote EUA</h3>
               <div className="preco">
-                <span className="preco-anterior">R$ 5.500</span>
-                <span className="preco-atual">R$ 4.500</span>
+                <span className="precoAnterior">R$ 5.500</span>
+                <span className="precoAtual">R$ 4.500</span>
               </div>
             </div>
             <p>
@@ -170,16 +171,16 @@ function App() {
                 <FaBus /> Transporte entre as cidades
               </li>
             </ul>
-            <button type="button" className="btn-comprar">
+            <button type="button" className="btnComprar">
               Comprar
             </button>
           </div>
-          <div className="card-pacote">
-            <div className="pacote-header">
+          <div className="cardPacote">
+            <div className="pacoteHeader">
               <h3>Pacote Ásia</h3>
               <div className="preco">
-                <span className="preco-anterior">R$ 7.000</span>
-                <span className="preco-atual">R$ 6.000</span>
+                <span className="precoAnterior">R$ 7.000</span>
+                <span className="precoAtual">R$ 6.000</span>
               </div>
             </div>
             <p>
@@ -202,16 +203,16 @@ function App() {
                 <FaBus /> Transporte entre as cidades
               </li>
             </ul>
-            <button type="button" className="btn-comprar">
+            <button type="button" className="btnComprar">
               Comprar
             </button>
           </div>
-          <div className="card-pacote">
-            <div className="pacote-header">
+          <div className="cardPacote">
+            <div className="pacoteHeader">
               <h3>Pacote América do Sul</h3>
               <div className="preco">
-                <span className="preco-anterior">R$ 4.000</span>
-                <span className="preco-atual">R$ 3.500</span>
+                <span className="precoAnterior">R$ 4.000</span>
+                <span className="precoAtual">R$ 3.500</span>
               </div>
             </div>
             <p>
@@ -234,7 +235,7 @@ function App() {
                 <FaBus /> Transporte entre as cidades
               </li>
             </ul>
-            <button type="button" className="btn-comprar">
+            <button type="button" className="btnComprar">
               Comprar
             </button>
           </div>
@@ -243,29 +244,29 @@ function App() {
 
       <section id="depoimentos" className="depoimentos">
         <h2>Depoimentos</h2>
-        <div className="depoimentos-grid">
-          <div className="card-depoimento">
-            <div className="depoimento-info">
+        <div className="depoimentosGrid">
+          <div className="cardDepoimento">
+            <div className="depoimentoInfo">
               <h3>João Silva</h3>
               <blockquote>Foi a melhor viagem da minha vida!</blockquote>
             </div>
           </div>
-          <div className="card-depoimento">
-            <div className="depoimento-info">
+          <div className="cardDepoimento">
+            <div className="depoimentoInfo">
               <h3>Maria Santos</h3>
               <blockquote>
                 Experiência incrível e atendimento excelente.
               </blockquote>
             </div>
           </div>
-          <div className="card-depoimento">
-            <div className="depoimento-info">
+          <div className="cardDepoimento">
+            <div className="depoimentoInfo">
               <h3>Ana Costa</h3>
               <blockquote>Recomendo a todos, vale cada centavo.</blockquote>
             </div>
           </div>
-          <div className="card-depoimento">
-            <div className="depoimento-info">
+          <div className="cardDepoimento">
+            <div className="depoimentoInfo">
               <h3>Pedro Oliveira</h3>
               <blockquote>
                 Excelente custo-benefício e ótimos guias turísticos.
@@ -274,11 +275,12 @@ function App() {
           </div>
         </div>
       </section>
+
       <section id="contato" className="contato">
         <h2>Contato</h2>
-        <div className="contato-container">
-          <div className="contato-info-form">
-            <div className="contato-info">
+        <div className="contatoContainer">
+          <div className="contatoInfoForm">
+            <div className="contatoInfo">
               <p>
                 <FaMapMarkerAlt /> Endereço: Rua Fictícia, 123 - Jaboticabal, SP
               </p>
@@ -293,7 +295,7 @@ function App() {
                 abaixo:
               </p>
             </div>
-            <form className="contato-form">
+            <form className="contatoForm">
               <label>
                 Nome:
                 <input type="text" name="nome" />
@@ -309,7 +311,7 @@ function App() {
               <button type="submit">Enviar</button>
             </form>
           </div>
-          <div className="contato-mapa">
+          <div className="contatoMapa">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.2810841259775!2d-48.35436492509229!3d-21.613967992949075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8e1d1fc68a2a7%3A0x72c0741034cbcc!2sSENAI%20-%20Servi%C3%A7o%20Nacional%20de%20Aprendizagem%20Industrial!5e0!3m2!1spt-BR!2sbr!4v1722442541179!5m2!1spt-BR!2sbr"
               width="100%"
@@ -324,7 +326,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <div className="social-links">
+        <div className="socialLinks">
           <a href="#facebook">
             <FaFacebook /> Facebook
           </a>

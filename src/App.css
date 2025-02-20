@@ -22,6 +22,7 @@ body {
 .menu {
   display: flex;
   gap: 16px;
+
   a {
     color: white;
     text-decoration: none;
@@ -74,20 +75,20 @@ body {
   }
 }
 
-.hero-content {
+.heroContent {
   position: relative;
   z-index: 1;
   max-width: 800px;
   text-align: center;
 }
 
-.hero-buttons {
+.heroButtons {
   display: flex;
   gap: 16px;
   justify-content: center;
 
-  .btn-saiba-mais,
-  .btn-reserve-agora {
+  .btnSaibaMais,
+  .btnReserveAgora {
     background: #ffdd57;
     color: #fffff0;
     border: none;
@@ -104,16 +105,16 @@ body {
 }
 
 /* Destinos Populares */
-.destinos-populares {
+.destinosPopulares {
   padding: 32px 16px;
 
-  .destinos-grid {
+  .destinosGrid {
     display: flex;
     gap: 16px;
     justify-content: space-between;
   }
 
-  .card-destino {
+  .cardDestino {
     background: white;
     padding: 16px;
     border: 1px solid #ddd;
@@ -131,7 +132,7 @@ body {
     }
   }
 
-  .imagem-destino {
+  .imagemDestino {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -143,16 +144,16 @@ body {
 }
 
 /* Pacotes de Viagem */
-.pacotes-viagem {
+.pacotesViagem {
   padding: 32px 16px;
 
-  .pacotes-grid {
+  .pacotesGrid {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
   }
 
-  .card-pacote {
+  .cardPacote {
     background: white;
     padding: 16px;
     border: 1px solid #ddd;
@@ -161,7 +162,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    .pacote-header {
+    .pacoteHeader {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -178,7 +179,7 @@ body {
         flex-direction: column;
       }
 
-      .preco-anterior {
+      .precoAnterior {
         text-decoration: line-through;
         color: #888;
       }
@@ -204,7 +205,7 @@ body {
       }
     }
 
-    .btn-comprar {
+    .btnComprar {
       background: #007bff;
       color: white;
       width: 100%;
@@ -233,14 +234,14 @@ body {
     margin-bottom: 32px;
   }
 
-  .depoimentos-grid {
+  .depoimentosGrid {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
   }
 
-  .card-depoimento {
+  .cardDepoimento {
     background: white;
     padding: 24px;
     border: 1px solid #ddd;
@@ -256,7 +257,7 @@ body {
       transform: translateY(-8px);
     }
 
-    .depoimento-info {
+    .depoimentoInfo {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -287,12 +288,12 @@ body {
     margin-bottom: 16px;
   }
 
-  .contato-container {
+  .contatoContainer {
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
 
-    .contato-info {
+    .contatoInfo {
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -306,7 +307,7 @@ body {
       }
     }
 
-    .contato-form {
+    .contatoForm {
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -339,7 +340,7 @@ body {
       }
     }
 
-    .contato-mapa {
+    .contatoMapa {
       flex: 1;
     }
   }
@@ -353,7 +354,7 @@ body {
   text-align: center;
   position: relative;
 
-  .social-links {
+  .socialLinks {
     display: flex;
     justify-content: center;
     gap: 16px;
